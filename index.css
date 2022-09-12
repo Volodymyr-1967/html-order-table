@@ -76,7 +76,6 @@ body {
     align-items: center;
     gap: 12px;
     height: 48px;
-    /*max-width: 1440px;*/
 }
 
 .sales-order {
@@ -181,13 +180,12 @@ body {
 .so-list-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: start;
     padding: 16px 0;
-    gap: 64px;
-    margin: 0 auto;
+    margin: 0 240px;
 
-    max-width: 1440px;
+    /*width: 1920px;*/
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -198,9 +196,10 @@ body {
 .so-list-header-tab{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: start;
+    align-items: center;
+    justify-content: space-between;
     gap: 32px;
+    width: 800px;
 }
 
 .so-list-header-cb {
